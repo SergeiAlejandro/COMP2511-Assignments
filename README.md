@@ -1,4 +1,4 @@
-# COMP2511-Assignments
+# COMP2511-Assignment01
 
 Sergei Siller
 Matt Schneitwer
