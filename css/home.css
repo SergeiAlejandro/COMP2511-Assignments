@@ -1,0 +1,53 @@
+
+
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: black;
+  }
+  body nav {
+    position: sticky;
+    top: 0;
+    scroll-behavior: smooth;
+  }
+  ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: rgb(70, 200, 30);
+    padding: 10px;
+    scroll-behavior: smooth;
+  }
+  li {
+    list-style: none;
+    margin-right: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    scroll-behavior: smooth;
+  }
+  li a {
+    text-decoration: none;
+    color: rgb(70, 200, 30);
+    scroll-behavior: smooth;
+  }
+  section {
+    height: 100px;
+    display: grid;
+    place-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    background: rgb(0, 0, 0);
+    scroll-behavior: smooth;
+  }
