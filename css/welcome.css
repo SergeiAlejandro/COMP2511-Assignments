@@ -61,6 +61,10 @@ img{
   width: 200px;
 }
 
+.audio{
+  display: block;
+}
+
 /* overall html */
 html{
   scroll-behavior: smooth;

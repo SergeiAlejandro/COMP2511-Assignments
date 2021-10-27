@@ -115,31 +115,24 @@
   }
 
   .figure-java{
-    padding: auto;
     margin: auto;
     float: left;
-    display: flex;
   }
 
   .figure-html{
-    padding: auto;
     margin: auto;
     float: left;
-    display: flex;
   }
 
   .figure-css{
-    padding: auto;
     margin: auto;
     float: left;
-    display: flex;
   }
 
   .figure-sql{
-    padding: auto;
     margin: auto;
     float: left;
-    display: flex;
+    margin-bottom: 5%;
   }
   
   .contact-area{
