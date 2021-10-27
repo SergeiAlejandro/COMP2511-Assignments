@@ -6,6 +6,20 @@ body{
   margin: 0;
   padding: 0;
   font-family:-apple-system, Roboto;
+  background-color: black;
+
+  animation: fadeInAnimation ease 10s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
 
 /* this is for the navigation bar */
@@ -14,12 +28,11 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
   background-color: rgb(0, 0, 0);
   width: 100%;
   height:50vmax;
-  z-index: 1;
+  z-index: 0;
+  margin: auto;
 }
 
 /* this is for the navagaation */
@@ -27,15 +40,8 @@ body{
   display: flex;
   justify-content: center;
   list-style: none;
-  margin-right: 15%;
+  margin-right: 0%;
 }
-
-/* this is for if the logo was in texst format */
-.logo{
-  flex: 1 1 auto;
-  margin-left: 10%;
-}
-
 
 /* this is for the enter button */
 a{
@@ -48,18 +54,12 @@ a{
 
 /* this is for the enter button hover */
 a:hover{
-  color: dimgray;
+  color: rgb(139, 23, 95);
 }
 
-/* this is the banner image */
-.banner-area{
-  position: relative;
-  background-image:url(../images/bg3.jpg);
-  width: 100%;
-  height: 60vh;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
+img{
+  width: 200px;
+
 }
 
 /* overall html */

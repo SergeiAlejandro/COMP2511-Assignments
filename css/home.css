@@ -6,6 +6,21 @@
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, sans-serif;
+    color: #FFF;
+
+    background: #000;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes fadeInAnimation {
+   0%{
+     opacity: 0;
+   }
+    100%{
+      opacity: 1;
+    }
   }
   
   .navbar{
@@ -44,10 +59,13 @@
   a:hover{
     color: dimgray;
   }
+
   
   .banner-area{
     position: relative;
-    background-image:url(../images/bg3.jpg);
+    background-image:url(../images/free01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
     height: 60vh;
     background-repeat: no-repeat;
@@ -74,8 +92,12 @@
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    height: 80px;
-    background: url(../images/bg2.jpg);
+    height: 800px;
+    background: url(../images/free02.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .contact-area{
@@ -86,12 +108,18 @@
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    height: 80px;
+    height: 800px;
+    background: url(../images/free03.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .text-part{
     width: 65%;
     height: 80%;
+    margin: auto;
   }
   
   h1{
@@ -114,11 +142,11 @@
     height:60px;
     bottom:40px;
     right:40px;
-    background-color:rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
     color:#FFF;
     border-radius:50px;
     text-align:center;
-    box-shadow: 2px 2px 3px #999;
+    box-shadow: 2px 2px 3px rgb(51, 51, 51);
   }
   
   .scroll-up{
