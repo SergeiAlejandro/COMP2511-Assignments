@@ -12,6 +12,9 @@
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
 
   @keyframes fadeInAnimation {
@@ -57,7 +60,7 @@
   }
   
   a:hover{
-    color: rgb(124, 32, 81);
+    color: rgb(158, 34, 86);
   }
 
   
@@ -65,7 +68,7 @@
     position: relative;
     background-image:url(../images/free01.jpg);
     width: 100%;
-    height: 60vh;
+    height: 100vh;
     -webkit-background-size: cover;
     background-attachment:fixed;
     background-position: center;
@@ -74,14 +77,14 @@
   }
   
   .about-area{
-    position: relative;
+    position: absolute;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    height: 0px;
+    height: 80px;
   }
 
   .adding-a-line{
@@ -103,13 +106,40 @@
     flex-direction: row;
     width: 100%;
     height: 700px;
-    background: url(../images/free02.jpg) ;
+    background: url(../images/free02.jpg);
     background-attachment:fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
     padding: 1.4px;
+  }
+
+  .figure-java{
+    padding: auto;
+    margin: auto;
+    float: left;
+    display: flex;
+  }
+
+  .figure-html{
+    padding: auto;
+    margin: auto;
+    float: left;
+    display: flex;
+  }
+
+  .figure-css{
+    padding: auto;
+    margin: auto;
+    float: left;
+    display: flex;
+  }
+
+  .figure-sql{
+    padding: auto;
+    margin: auto;
+    float: left;
+    display: flex;
   }
   
   .contact-area{
@@ -130,8 +160,12 @@
   
   .text-part{
     width: 85%;
-    height: 80%;
+    height: 10%;
     margin: auto;
+  }
+
+  article{
+    font-size: 20px;
   }
   
   img{
@@ -146,6 +180,24 @@
   p{
     font-size: 18px;
     line-height: 30px;
+    margin: 2%;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 150px;
+    padding-top: 30px;
+  }
+
+  p1{
+    margin:auto;
+  }
+
+  p3{
+    line-height: 30px;
+    margin: 2%;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 150px;
+    padding-top: 30px;
   }
 
   .audio{
@@ -162,24 +214,32 @@
     color:rgb(0, 0, 0);
     border-radius:50px;
     text-align:center;
+    font-weight: 200;
     box-shadow: 2px 2px 3px rgb(51, 51, 51);
+    margin: 0%;
   }
 
-  .up-arrow{
-    color: white;
+  #up-arrow{
+    color: rgb(34, 182, 113);
+    margin: -20%;
+    font-weight: bold;
   }
   
   .scroll-up{
     margin-top:22px;
   }
 
-  .footerId{
-    position: center;
-    display: center;
-    justify-content: center;
-    align-items: center;
+  #footer{
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
   }
   
   html{
     scroll-behavior: smooth;
+    overflow: scroll;
+    overflow-x: hidden;
   }
