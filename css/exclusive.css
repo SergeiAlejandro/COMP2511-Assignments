@@ -124,6 +124,9 @@
     width: 85%;
     height: 10%;
     margin: auto;
+    align-items: center;
+    align-self: center;
+    align-content: center;
   }
 
   html{
