@@ -129,6 +129,11 @@
     align-content: center;
   }
 
+  .inactiveLink {
+    pointer-events: none;
+    cursor: default;
+ }
+
   html{
     scroll-behavior: smooth;
     overflow: scroll;
