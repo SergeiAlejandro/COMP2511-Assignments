@@ -2,10 +2,10 @@
 
 
 
-body{
+  body{
     margin: 0;
     padding: 0;
-    font-family:-apple-system, Roboto;
+    font-family: Verdana, Geneva, sans-serif;
   }
   
   .navbar{
@@ -96,12 +96,40 @@ body{
   
   h1{
     font-size: 50px;
-    font-family: -apple-system, Roboto;
+    font-family: Verdana, Geneva, sans-serif;
   }
   
   p{
     font-size: 18px;
     line-height: 30px;
+  }
+
+  .audio{
+    display: block;
+  }
+
+  .float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:rgb(0, 0, 0);
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    box-shadow: 2px 2px 3px #999;
+  }
+  
+  .scroll-up{
+    margin-top:22px;
+  }
+
+  .footerId{
+    position: center;
+    display: center;
+    justify-content: center;
+    align-items: center;
   }
   
   html{
