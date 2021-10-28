@@ -187,45 +187,87 @@
   <!-- START: Contact Us Form Section -->
 
   <div class="contact-area" id="contact"></div>
-  <div class="text-part">
+    <div class="text-part">
 
-    <div class="adding-a-line">
-      <h1>Contact Us</h1>
+      <div class="adding-a-line">
+      <h1>Contact Us Here</h1>
+      </div>
+ 
+
+      <div class="form-center"> 
+        <img src="images/contact-us.png" alt="Email-logo">
+        <form method="post" action="mailto:email@domain.com" id="contactForm">
+          <table>
+            <th id="blankTH"> </th>
+            <tc>
+              <td>
+                <fieldset>
+                  <legend>Contact Information</legend>
+                  <label>Name <br>
+                      <input name="name" type="text" maxlength="35"/>
+                  </label>
+                  <br> <br>
+
+                  <label>Phone <br>
+                      <input name="phone" type="tel" placeholder="555-555-5555" pattern="[0-9]{3}[-][0-9]{3}[-][0-9]{4}" maxlength="15" />
+                  </label>
+                  <br> <br>
+
+                  <label>Email <br>
+                      <input name="email" type="text" maxlength="30" placeholder="youremail@domain.ca" />
+                  </label>
+                  <br> <br>
+
+                  <label> Date <br>
+                      <input name="date" type="date" />
+                  </label>
+
+                  <P>Preferred method of contact:</P>
+                  <label>Phone
+                      <input name="program" type="radio" value="Phone"/>
+                  </label>
+                  <label>Email
+                      <input name="program" type="radio" value="Email" />
+                  </label>
+                  <br><br>
+
+                  <p>Inquiry Type:</p>
+                  <label> Bussiness
+                      <input name="type" type="checkbox" value="Bussiness" />
+                  </label>
+                  <label> Customer
+                      <input name="type" type="checkbox" value="Customer" />
+                  </label>
+                  <label> Bussiness
+                      <input name="type" type="checkbox" value="Bussiness" />
+                  </label>
+              </fieldset>
+
+              </td>
+
+
+
+              <td>
+                <fieldset class="messageField"> <legend>Message</legend>
+                  <label required class="sbj">Subject: <br>
+                      <input name="Subject" type="text" required id="emailSubject"/>
+                  </label>
+                  <br><br>
+
+                  <label required> Inquiry: <br>
+                      <textarea form="contactForm" name="Inquiry" id="inquiry" cols="70" rows="17"></textarea>
+                  </label>
+                  <br><br>
+
+                  <input type="submit" value="Submit" class="emailButton"/>
+                  <input type="reset" value="Clear" class="emailButton"/>
+              </fieldset>
+              </td>
+            </tc>
+          </table>
+      </form>
+      </div>
     </div>
-
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ut commodi ipsum. Necessitatibus vero vel culpa,
-      incidunt officiis harum corporis nobis iure quas cumque ex et reprehenderit autem magnam in!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ut commodi ipsum. Necessitatibus vero vel culpa,
-      incidunt officiis harum corporis nobis iure quas cumque ex et reprehenderit autem magnam in!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ut commodi ipsum. Necessitatibus vero vel culpa,
-      incidunt officiis harum corporis nobis iure quas cumque ex et reprehenderit autem magnam in!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ut commodi ipsum. Necessitatibus vero vel culpa,
-      incidunt officiis harum corporis nobis iure quas cumque ex et reprehenderit autem magnam in!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ut commodi ipsum. Necessitatibus vero vel culpa,
-      incidunt officiis harum corporis nobis iure quas cumque ex et reprehenderit autem magnam in!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ut commodi ipsum. Necessitatibus vero vel culpa,
-      incidunt officiis harum corporis nobis iure quas cumque ex et reprehenderit autem magnam in!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ut commodi ipsum. Necessitatibus vero vel culpa,
-      incidunt officiis harum corporis nobis iure quas cumque ex et reprehenderit autem magnam in!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ut commodi ipsum. Necessitatibus vero vel culpa,
-      incidunt officiis harum corporis nobis iure quas cumque ex et reprehenderit autem magnam in!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ut commodi ipsum. Necessitatibus vero vel culpa,
-      incidunt officiis harum corporis nobis iure quas cumque ex et reprehenderit autem magnam in!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ut commodi ipsum. Necessitatibus vero vel culpa,
-      incidunt officiis harum corporis nobis iure quas cumque ex et reprehenderit autem magnam in!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ut commodi ipsum. Necessitatibus vero vel culpa,
-      incidunt officiis harum corporis nobis iure quas cumque ex et reprehenderit autem magnam in!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ut commodi ipsum. Necessitatibus vero vel culpa,
-      incidunt officiis harum corporis nobis iure quas cumque ex et reprehenderit autem magnam in!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ut commodi ipsum. Necessitatibus vero vel culpa,
-      incidunt officiis harum corporis nobis iure quas cumque ex et reprehenderit autem magnam in!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ut commodi ipsum. Necessitatibus vero vel culpa,
-      incidunt officiis harum corporis nobis iure quas cumque ex et reprehenderit autem magnam in!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ut commodi ipsum. Necessitatibus vero vel culpa,
-      incidunt officiis harum corporis nobis iure quas cumque ex et reprehenderit autem magnam in!
-    </p>
-  </div>
   </ul>
 
   <audio class="audio" autoplay loop>
