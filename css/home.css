@@ -132,11 +132,17 @@
     float: right;
   }
 
-  .table-style{
-    border-top: 3px solid rgb(95, 33, 211); 
-    border-right: 3px solid rgb(159, 117, 179);
-    border-left: 3px solid rgb(78, 69, 209);
-    border-bottom: 3px solid rgb(38, 170, 223);
+  .table-style td{
+    margin-bottom: 120px;
+    border: 2px solid;
+    border-color: rgb(104, 154, 212);
+  }
+
+  .table-style tr{
+    margin-bottom: 120px;
+    border: 2px solid;
+    border-color: mediumslateblue;
+    background-color: rgb(22, 21, 26);
   }
   
   .contact-area{
