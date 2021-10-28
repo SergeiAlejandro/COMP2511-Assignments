@@ -170,9 +170,10 @@
     font-size: 20px;
   }
   
-  img{
+   img{
     width: 200px;
   }
+  
 
   h1{
     font-size: 50px;
@@ -268,4 +269,9 @@
     scroll-behavior: smooth;
     overflow: scroll;
     overflow-x: hidden;
+  }
+  
+  .Email-logo-format {
+    padding-top: 150px;
+    
   }
