@@ -98,9 +98,13 @@
     padding: 1.4px;
   }
   
-
   #padding-between-div{
   padding-bottom: 13vh;
+  }
+
+  #new-coder{
+  flex-wrap: wrap;
+  float: right;
   }
 
   .learnmore-area{
@@ -333,3 +337,6 @@
     filter: brightness(50%); 
   }
   
+  #about-us{
+    font-size: 20px;
+    }
