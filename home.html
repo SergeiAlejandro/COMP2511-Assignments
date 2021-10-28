@@ -35,7 +35,7 @@
 
   <div class="about-area" id="about"></div>
 
-  <div class="text-part">
+  <div class="text-part" id="padding-between-div">
 
     <div class="adding-a-line">
       <h1>Code Junkies</h1>
@@ -64,7 +64,7 @@
 
   <div class="learnmore-area" id="learnmore"></div>
 
-  <div class="text-part">
+  <div class="text-part" id="padding-between-div">
 
     <div class="adding-a-line">
       <h1>Learn More</h1>
@@ -80,7 +80,7 @@
 
       <table class="table-style">
         <tr>
-          <td>
+          <td id="java-table">
             <figure class="figure-java">
               <img src="images/java.png" title="Java" />
             </figure>
@@ -101,7 +101,7 @@
 
           </td>
 
-          <td>
+          <td id="html-table">
 
             <figure class="figure-html">
               <img src="images/html.png" title="Html" />
@@ -132,7 +132,7 @@
 
         <tr>
 
-          <td>
+          <td id="css-table">
 
             <figure class="figure-css">
               <img src="images/css.png" title="Css" />
@@ -148,11 +148,12 @@
               This article explains what CSS is, with a simple syntax example, and also covers some key terms about the
               language.
               <br><br>
-              <i>Learn more about this: <a href="https://www.youtube.com/watch?v=yfoY53QXEnI" target="_blank">CSS Basics</a>.</i>
+              <i>Learn more about this: <a href="https://www.youtube.com/watch?v=yfoY53QXEnI" target="_blank">CSS
+                  Basics</a>.</i>
             </article>
 
           </td>
-          <td>
+          <td id="sql-table">
 
             <figure class="figure-sql">
               <img src="images/sql.png" title="Sql" />
@@ -169,7 +170,8 @@
               database
               management systems.
               <br><br>
-              <i>Learn about this: <a href="https://www.youtube.com/watch?v=7S_tz1z_5bA" target="_blank">MySql Basics</a>.</i>
+              <i>Learn about this: <a href="https://www.youtube.com/watch?v=7S_tz1z_5bA" target="_blank">MySql
+                  Basics</a>.</i>
             </article>
 
           </td>
@@ -187,95 +189,99 @@
   <!-- START: Contact Us Form Section -->
 
   <div class="contact-area" id="contact"></div>
-    <div class="text-part">
+  <div class="text-part" id="padding-between-div">
 
-      <div class="adding-a-line">
+    <div class="adding-a-line">
       <h1>Contact Us Here</h1>
-      </div>
- 
-      
-      
-
-      <div class="form-center"> 
-        
-        <div class="Email-logo-format">
-          <figure>
-            <img src="images/contact-us.png" alt="Email-logo" height="350px" title="email-logo">
-            <figcaption>
-              Contact Us Logo
-            </figcaption>
-          </figure>
-        </div>
-        
-        <form method="post" action="mailto:email@domain.com" id="contactForm">
-          <table>
-            <th id="blankTH"> </th>
-            <tc>
-              <td>
-                <fieldset>
-                  <legend>Contact Information</legend>
-                  <label>Name <br>
-                      <input name="name" type="text" maxlength="35"/>
-                  </label>
-                  <br> <br>
-
-                  <label>Phone <br>
-                      <input name="phone" type="tel" placeholder="555-555-5555" pattern="[0-9]{3}[-][0-9]{3}[-][0-9]{4}" maxlength="15" />
-                  </label>
-                  <br> <br>
-
-                  <label>Email <br>
-                      <input name="email" type="text" maxlength="30" placeholder="youremail@domain.ca" />
-                  </label>
-                  <br> <br>
-
-                  <label> Date <br>
-                      <input name="date" type="date" />
-                  </label>
-
-                  <P>Preferred method of contact:</P>
-                  <label>Phone
-                      <input name="program" type="radio" value="Phone"/>
-                  </label>
-                  <label>Email
-                      <input name="program" type="radio" value="Email" />
-                  </label>
-                  <br><br>
-
-                  <p>Inquiry Type:</p>
-                  <label> Bussiness
-                      <input name="type" type="checkbox" value="Bussiness" />
-                  </label>
-                  <label> Customer
-                      <input name="type" type="checkbox" value="Customer" />
-                  </label>
-                  <label> Bussiness
-                      <input name="type" type="checkbox" value="Bussiness" />
-                  </label>
-              </fieldset>
-              </td>
-
-              <td>
-                <fieldset class="messageField"> <legend>Message</legend>
-                  <label required class="sbj">Subject: <br>
-                      <input name="Subject" type="text" required id="emailSubject"/>
-                  </label>
-                  <br><br>
-
-                  <label required> Inquiry: <br>
-                      <textarea form="contactForm" name="Inquiry" id="inquiry" cols="70" rows="17"></textarea>
-                  </label>
-                  <br><br>
-
-                  <input type="submit" value="Submit" class="emailButton"/>
-                  <input type="reset" value="Clear" class="emailButton"/>
-              </fieldset>
-              </td>
-            </tc>
-          </table>
-      </form>
-      </div>
     </div>
+
+
+
+
+    <div class="form-center">
+
+      <div class="Email-logo-format">
+        <figure>
+          <img src="images/contact-us.png" alt="Email-Icon" height="350px" title="email-logo">
+          <figcaption>
+            Let us know any questions you may have!
+          </figcaption>
+        </figure>
+      </div>
+
+      <form method="post" action="mailto:email@domain.com" id="contactForm">
+        <table>
+          <th id="blankTH"> </th>
+          <tc>
+            <td>
+              <fieldset>
+                <legend>Contact Information</legend>
+                <br>
+                <label>Name <br>
+                  <input name="name" type="text" maxlength="50" />
+                </label>
+                <br> <br>
+
+                <label>Phone <br>
+                  <input name="phone" type="tel" placeholder="555-555-5555" pattern="[0-9]{3}[-][0-9]{3}[-][0-9]{4}"
+                    maxlength="15" />
+                </label>
+                <br> <br>
+
+                <label>Email <br>
+                  <input name="email" type="text" maxlength="30" placeholder="youremail@domain.ca" />
+                </label>
+                <br> <br>
+
+                <label> Date <br>
+                  <input name="date" type="date" />
+                </label>
+                <br><br>
+                <P>Preferred method of contact:</P>
+                <label>Phone
+                  <input name="program" type="radio" value="Phone" />
+                </label>
+                <label>Email
+                  <input name="program" type="radio" value="Email" />
+                </label>
+                <br><br>
+
+                <p>Inquiry Type:</p>
+                <label> Individual
+                  <input name="type" type="checkbox" value="Individual" />
+                </label>
+                <label> Business
+                  <input name="type" type="checkbox" value="Business" />
+                </label>
+                <label> Corporate
+                  <input name="type" type="checkbox" value="Corporate" />
+                </label>
+              </fieldset>
+            </td>
+
+            <td>
+              <fieldset class="messageField">
+                <legend>Message</legend>
+                <br>
+                <label required class="sbj">Subject: <br>
+                  <input name="Subject" type="text" required id="emailSubject" />
+                </label>
+                <br><br>
+
+                <label required> Inquiry: <br>
+                  <textarea form="contactForm" name="Inquiry" id="inquiry" cols="70" rows="17"></textarea>
+                </label>
+                <br><br>
+
+                <input type="submit" value="Submit" class="emailButton" />
+                <input type="reset" value="Clear" class="emailButton" />
+              </fieldset>
+            </td>
+          </tc>
+        </table>
+      </form>
+    </div>
+  </div>
   </ul>
 
   <audio class="audio" autoplay loop>

@@ -85,7 +85,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    height: 80px;
+    height: 10vh;
   }
 
   .adding-a-line{
@@ -98,6 +98,11 @@
     padding: 1.4px;
   }
   
+
+  #padding-between-div{
+  padding-bottom: 13vh;
+  }
+
   .learnmore-area{
     position: relative;
     display: flex;
@@ -135,10 +140,12 @@
     float: right;
   }
 
+  /*
   .table-style td{
     margin-bottom: 120px;
     border: 2px solid;
     border-color: rgb(44, 52, 61);
+    border-radius:5px;
   }
 
   .table-style tr{
@@ -147,7 +154,32 @@
     border-color: mediumslateblue;
     background-color: rgb(22, 21, 26);
   }
-  
+  */
+
+  #java-table{
+  background-color: rgb(23, 23, 32);
+  padding: 30px;
+  border-radius: 15px;
+  }
+
+  #html-table{
+    background-color: rgb(11, 15, 36);
+    padding: 30px;
+    border-radius: 15px;
+  }
+
+  #css-table{
+    background-color: rgb(9, 39, 51);
+    padding: 30px;
+    border-radius: 15px;
+  }
+
+  #sql-table{
+    background-color: rgb(38, 50, 70);
+    padding: 30px;
+    border-radius: 15px;
+  }
+
   .contact-area{
     position: relative;
     display: flex;
@@ -251,6 +283,7 @@
   
   form {
     padding-top: 50px;
+    border-radius: 10px;
   }
 
   legend{
@@ -281,6 +314,9 @@
   input{
     background-color: rgb(22, 21, 26);
     color: #FFF;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
   }
   ::placeholder{
     background-color: rgb(22, 21, 26);
@@ -290,5 +326,10 @@
   textarea{
     background-color: rgb(22, 21, 26);
     color: #FFF;
+    border-radius:5px;
+  }
+
+  img:hover { 
+    filter: brightness(50%); 
   }
   
