@@ -114,23 +114,29 @@
 
   .figure-java{
     margin: auto;
-    float: left;
+    float: right;
   }
 
   .figure-html{
     margin: auto;
-    float: left;
+    float: right;
   }
 
   .figure-css{
     margin: auto;
-    float: left;
+    float: right;
   }
 
   .figure-sql{
     margin: auto;
-    float: left;
-    margin-bottom: 5%;
+    float: right;
+  }
+
+  .table-style{
+    border-top: 3px solid rgb(95, 33, 211); 
+    border-right: 3px solid rgb(159, 117, 179);
+    border-left: 3px solid rgb(78, 69, 209);
+    border-bottom: 3px solid rgb(38, 170, 223);
   }
   
   .contact-area{
@@ -164,6 +170,11 @@
   }
 
   h1{
+    font-size: 50px;
+    font-family: Verdana, Geneva, sans-serif;
+  }
+
+  th{
     font-size: 50px;
     font-family: Verdana, Geneva, sans-serif;
   }
